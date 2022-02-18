@@ -1,0 +1,4 @@
+<div (click)="handleToggle(todo)" class="todo-item" [ngClass]="{'todo-item--done': todo.done}">
+    <h3 class="todo-item__title">{{todo.title}}</h3>
+    <div class="todo-item__created-at">{{todo.createdDate}}</div>
+</div>

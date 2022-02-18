@@ -1,0 +1,7 @@
+<todo-item
+    *ngFor="let todo of list"
+    [todo]="todo"
+    (onToggle)="toggleDone($event)"
+></todo-item>
+<input type="text" [(ngModel)]="newTodoTitle">
+<button (click)="addTodo()">Add</button>

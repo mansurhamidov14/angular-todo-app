@@ -1,0 +1,21 @@
+.todo-item {
+    border: 2px solid #c6e066;
+    margin: 10px;
+    padding: 4px 8px;
+    cursor: pointer;
+
+    &--done {
+        border-color: #45e713;
+    }
+
+    &__title {
+        font-size: 24px;
+        color: black;
+        margin: 8px 0;
+    }
+
+    &__created-at {
+        color: #5a5a5a;
+        font-size: 14px;
+    }
+}
